@@ -1,0 +1,74 @@
+<style>
+    .navbar__logo {
+        width: 50px;
+        border-radius: 50%;
+    }
+</style>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <!-- Container wrapper -->
+    <div class="container">
+        <!-- Toggle button -->
+        <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
+            data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+        </button>
+
+        <!-- Collapsible wrapper -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <!-- Navbar brand -->
+            <a class="navbar-brand mt-2 mt-lg-0" href="#">
+                <img class="navbar__logo"
+                    src="https://static10.tgstat.ru/channels/_0/a5/a54baea84d33b599ada64d3c13271beb.jpg" alt="">
+                Kitob
+            </a>
+            <!-- Left links -->
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="/">Asosiy sahifa</a>
+                </li>
+                <li class="nav-item">
+                    <div class="dropdown">
+                        <button class="nav-link" type="button" id="dropdownMenuButton" data-mdb-toggle="dropdown"
+                            aria-expanded="false">
+                            Kitob
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <li><a class="dropdown-item" href="/api/list">List</a></li>
+                            <li><a class="dropdown-item" href="/api/add">Add</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <div class="dropdown">
+                        <button class="nav-link" type="button" id="cate" data-mdb-toggle="dropdown"
+                            aria-expanded="false">
+                            Category
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="cate">
+                            <li><a class="dropdown-item" href="#">List</a></li>
+                            <li><a class="dropdown-item" href="#">Add</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <div class="dropdown">
+                        <button class="nav-link" type="button" id="cate" data-mdb-toggle="dropdown"
+                            aria-expanded="false">
+                            Foydalanuvchilar
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="cate">
+                            <li><a class="dropdown-item" href="#">List</a></li>
+                            <li><a class="dropdown-item" href="#">Add</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <!-- Collapsible wrapper -->
+    </div>
+    <!-- Container wrapper -->
+</nav>
+<!-- Navbar -->
